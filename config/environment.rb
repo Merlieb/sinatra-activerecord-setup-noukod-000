@@ -8,5 +8,5 @@ require './app'
 configure :development do
   set :database, 'sqlite3:db/dogs.db'
 end
-require './config/environment'
-require 'sinatra/activerecord/rake'
+# require './config/environment'
+# require 'sinatra/activerecord/rake'
